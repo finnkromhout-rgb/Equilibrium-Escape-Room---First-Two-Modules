@@ -10,8 +10,8 @@
 #include <Adafruit_SH110X.h>
 
 // --- WiFi credentials ---
-const char* ssid = "iPhone";
-const char* password = "finn1234";
+const char* ssid = "...";
+const char* password = "...";
 
 // --- OOCSI connection settings ---
 // A random suffix is appended at boot so re-uploading never collides with
@@ -19,7 +19,7 @@ const char* password = "finn1234";
 String OOCSIName;
 const char* hostserver = "oocsi.id.tue.nl";
 OOCSI oocsi = OOCSI();
-const char* CHANNEL = "OOCSI-things/team-3";
+const char* CHANNEL = "OOCSI-things/team-...";
 
 // --- LED strip ---
 #define STRIP_PIN 5
