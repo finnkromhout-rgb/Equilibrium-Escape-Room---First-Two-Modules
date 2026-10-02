@@ -1,7 +1,4 @@
-/******************************************************************************
-   Equilibrium — Boiler Room Controller (ESP32 module)
-   Valve sequence puzzle with OLED hints, LED progress bar, and OOCSI sync.
- ******************************************************************************/
+
 
 #include "OOCSI.h"
 #include <Adafruit_NeoPixel.h>
@@ -51,7 +48,7 @@ bool isAtDirection(Direction dir, float d1v) {
   return false;
 }
 
-// --- Sequence (edit freely) ---
+// --- Sequence (edit to your liking) ---
 const int SEQUENCE_LEN = 3;
 const float SEQUENCE_PRESSURE[SEQUENCE_LEN] = {1.0, 2.0, 3.0};   // East, South, West pressures
 const Direction SEQUENCE_DIR[SEQUENCE_LEN]  = {DIR_EAST, DIR_SOUTH, DIR_WEST};
