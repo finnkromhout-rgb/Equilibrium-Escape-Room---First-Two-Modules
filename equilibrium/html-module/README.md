@@ -18,8 +18,6 @@ const CORRECT_PIN = "167874";
 
 Change this to whatever code your physical clues (periodic table, underlined word, etc.) lead players to.
 
-⚠️ Since this is a public repo, remember to change the PIN before running an actual game session if this code stays visible to players in any way.
-
 ## Puzzle flow
 
 1. Players unlock the terminal with the 6-digit dial code.
